@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Hobbies</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: "Poppins", sans-serif;
+      background: radial-gradient(circle at top left, #ff9a9e, #fad0c4);
+      color: #222;
+    }
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2em;
+      letter-spacing: 1px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 8px 0;
+      padding: 10px 20px;
+      border-radius: 30px;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    li:hover {
+      transform: scale(1.05);
+      background: #ffe9ec;
+    }
+  </style>
 </head>
 <body>
-    <h1>hello</h1>
-    <li>1</li>
+  <h1>My Hobbies</h1>
+  <ul>
+    <li>⚽ Football</li>
+    <li>🏏 Cricket</li>
+    <li>🎮 Video Games</li>
+    <li>🚶‍♂️ Walking</li>
+  </ul>
 </body>
 </html>
